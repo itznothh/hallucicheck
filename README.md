@@ -1,6 +1,6 @@
 # HalluciCheck – AI Hallucination Detector
 
-A lightweight, single-file web tool that detects hallucinations, unsupported claims, and factual inconsistencies in AI-generated text using the Claude API.
+A lightweight, single-file web tool that detects hallucinations, unsupported claims, and factual inconsistencies in AI-generated text using the Claude API. Simply paste any AI-generated content and HalluciCheck will analyze it in seconds — returning a hallucination risk score, flagged issues with severity levels, and an overall summary. No backend, no frameworks, no install required; it runs entirely in the browser.
 
 ## Features
 - Paste any AI-generated text (ChatGPT, Gemini, Claude, etc.)
@@ -99,5 +99,4 @@ hallucicheck/
 3. Claude returns a JSON object with risk score, flags, and summary
 4. UI renders results with color-coded severity indicators
 
-## Author
-Built for hackathon — [Your Name]
+
